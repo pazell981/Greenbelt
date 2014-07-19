@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+label{
+	font-family: 'Oswald', sans-serif;
+}
+table{
+	width: 100%;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}
+tr{
+	border: 1px solid #000000;
+}
+td{
+	text-align: center;
+}
+#welcome h2, #welcome h3{
+	text-align: center;
+}
+.column{
+	vertical-align: top;
+	position: relative;
+	display: inline-block;
+	width: 350px;
+	margin: 10px 20px;
+}
+.button {
+	border: 0px;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 10px 0px;
+	padding: 5px 10px;
+	text-align: center;
+	font-size: 10pt;
+	font-weight: bolder;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.blue{
+	background: linear-gradient(#1e5799,#2989d8,#1e5799);
+}
+.width{
+	width: 150px;
+}
+.green{
+	background: linear-gradient(#009f07,#83c783,#009f07);
+}
+.purple{
+	background: linear-gradient(#cb60b3,#c146a1,#cb60b3);
+}
+.red{
+	background: linear-gradient(#ff3019,#cf0404,#ff3019);
+}
+.gray{
+	background-color: #E0E0E0;
+}
+.standout{
+	font-weight: bold;
+	font-size: .75em;
+	display: block;
+}
+.errors{
+	color: #FF0000;
+	border: 1px solid #FF0000;
+}
+.error{
+	border: 2px solid #000000;
+	background-color: #E56568;
+	width: 100%;
+	text-align: center;
+	margin: 50px auto 0px;
+}
+.success{
+	border: 2px solid #000000;
+	background-color: #64A85A;
+	width: 300px;
+	text-align: center;
+	margin: 50px auto 0px;
+}
+.posts{
+
+}
+.comment{
+
+}
+#container{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	overflow: scroll;
+}
+#wrapper{
+	position: relative;
+	width: 1000px;
+	margin: 0px auto;
+
+}
+#title{
+	position:relative;
+	vertical-align: top;
+	width: 1000px;
+	height: 40px;
+	padding: 10px 10px;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+#title h1{
+	height: 40px;
+	margin-left: 10px;
+}
+#user{
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 30px;
+	width: 200px;
+	vertical-align: top;
+	text-align: right;
+	margin: 5px 10px;
+	padding: 10px;
+}
+#user h6{
+	display: inline-block;
+	margin-right: 5px;
+}
+#welcome{
+	width: 800px;
+	margin: 0px auto;
+}
+#login label{
+	width:150px;
+	display: block;
+}
+#login input[type="text"]{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+	margin-left: 25px;
+}
+#login input[type="password"]{
+    width: 250px;
+    height: 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+#login input[type="submit"]{
+	display:block;
+    width: 150px;
+    border-radius: 5px;
+}
+#register label{
+	width:150px;
+	display: block;
+	padding-right: 15px;
+}
+#register input[type="text"]{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+	margin-left: 25px;
+}
+#register input[type="password"]{
+    width: 250px;
+    height: 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+#register input[type="submit"]{
+    width: 150px;
+    border-radius: 5px;
+    display: block;
+}
+#report{
+	width:400px;
+	margin: 20px auto;
+}
+#report h2{
+	margin: 20px 0;
+}
+#report h3{
+	margin: 10px 0;
+}
+#report p{
+	margin: 5px 0;
+	text-indent: 30px;
+}
+/*#footer{
+	position: fixed;
+	bottom: 0px;
+	width: 1000px;
+	height: 40px;
+	padding: 10px 10px;
+	background-color: #000000;
+	color: #FFFFFF;
+}*/
